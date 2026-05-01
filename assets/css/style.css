@@ -1,4 +1,93 @@
-h1 {
-    color: red;
-    font-family: "Lato";
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+/* =======================Common========================== */
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 1110px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 98px;
+    border-radius: 12px;
+    background: #0f1b4c;
+    color: #fff;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 18px 16px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* =======================Header========================== */
+
+.header-nav {
+    position: sticky;
+    top: -26px;
+    padding-top: 26px;
+    background-color: #e6f0ff;
+}
+
+.header-nav .fixed-nav {
+    padding: 12px 0;
+    display: flex;
+    align-items: center;
+    background-color: #e6f0ff;
+}
+
+.header-nav .box-nav {
+    margin: 0 auto 0 64px;
+    display: flex;
+    gap: 28px;
+}
+
+.header-nav .link-nav {
+    color: #4f5361;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.header-nav .link-nav:hover {
+    text-decoration: underline;
+}
+
+.header-nav .actions {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav .action-link {
+    color: #0f1b4c;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.header-nav .action-btn {
+    padding: 13px 12px;
+    border-radius: 8px;
+    margin-left: 18px;
+    font-size: 1.4rem;
 }
