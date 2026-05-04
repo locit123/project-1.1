@@ -188,3 +188,83 @@ a {
     background: #fff;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
+/* =======================Guides========================== */
+.guides {
+    margin-top: 40px;
+    padding: 93px 0 79px;
+}
+
+.guides .sub-title {
+    position: relative;
+    color: #000339;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1; /* 100% */
+}
+
+.guides .sub-title::before {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    display: inline-block;
+    width: 41px;
+    height: 4px;
+    border-radius: 12px;
+    background: #000339;
+}
+
+.guides .desc {
+    width: 459px;
+    margin-top: 20px;
+    margin: 20px auto 0;
+    color: #5a6473;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.875; /* 187.5% */
+}
+.guides .list-guides {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+}
+
+.guides .item {
+    text-align: center;
+}
+
+.guides .item-title {
+    margin-top: 26px;
+    color: #3b3c45;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.1; /* 110% */
+}
+
+.guides .item-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0689ff;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.guides .arrow-right {
+    margin-left: 8px;
+}
+
+.guides .guides-btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.guides .btn {
+    min-width: 170px;
+    font-size: 1.3rem;
+}
