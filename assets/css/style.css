@@ -42,13 +42,14 @@ a {
     opacity: 0.8;
 }
 
-/* =======================Header========================== */
+/* =======================Header Navigation========================== */
 
 .header-nav {
     position: sticky;
-    top: -26px;
+    top: -25.5px;
     padding-top: 26px;
     background-color: #e6f0ff;
+    z-index: 1;
 }
 
 .header-nav .fixed-nav {
@@ -90,4 +91,52 @@ a {
     border-radius: 8px;
     margin-left: 18px;
     font-size: 1.4rem;
+}
+/* =======================Header Body========================== */
+.header-body {
+    position: relative;
+    background-color: #e6f0ff;
+    height: calc(100vh - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-body .hero-left {
+    width: 51%;
+}
+
+.header-body .sub-title {
+    color: #687690;
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 0.018em;
+}
+
+.header-body .heading {
+    margin-top: 8px;
+    color: #000336;
+    font-size: 6.4rem;
+    font-weight: 600;
+    line-height: 1.1875; /* 118.75% */
+}
+
+.header-body .desc {
+    margin-top: 30px;
+    color: #5a6473;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.77; /* 177.778% */
+    text-transform: capitalize;
+}
+
+.header-body .btn {
+    margin-top: 40px;
+    min-width: 170px;
+}
+
+.header-body .image-right {
+    position: absolute;
+    bottom: 0px;
+    right: calc((100vw - 1110px) / 2 - 100px);
 }
