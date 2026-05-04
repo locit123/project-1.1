@@ -148,3 +148,43 @@ a {
     bottom: 0px;
     right: calc((100vw - 1110px) / 2 - 100px);
 }
+/* =======================Clients========================== */
+.clients {
+    margin-top: 79px;
+    padding: 43px 0 23px;
+}
+
+.clients .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients .desc {
+    margin-top: 23px;
+    color: #7d8589;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.25; /* 125% */
+}
+
+.clients .box-img {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.clients .link-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 204px;
+    height: 91px;
+    border-radius: 12px;
+}
+
+.clients .link-img:hover {
+    background: #fff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
