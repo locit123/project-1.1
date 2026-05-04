@@ -42,6 +42,13 @@ a {
     opacity: 0.8;
 }
 
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 2);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 /* =======================Header Navigation========================== */
 
 .header-nav {
@@ -111,6 +118,7 @@ a {
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: 0.018em;
+    line-height: 1.5;
 }
 
 .header-body .heading {
